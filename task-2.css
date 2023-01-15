@@ -1,0 +1,53 @@
+body {
+  overflow-y: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.start {
+  background-color: greenyellow;
+}
+
+.tap {
+  height: 30px;
+  width: 120px;
+  border-radius: 50px;
+  position: absolute;
+  top: -30px;
+  background-color: rgb(122, 233, 207);
+}
+
+.is-hidden {
+  display: none;
+}
+
+.score-info {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.stop {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  background-color: rgb(252, 147, 0);
+}
